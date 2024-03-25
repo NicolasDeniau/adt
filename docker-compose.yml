@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  frontend:
+    # Image utilisé pour le conteneur
+    build: ./frontend
+    # Volume pour l'effet mirroir des dossiers / fichiers, host (gauche), container (droite)
+    volumes:
+      - ./frontend:/frontend
+    # Ouverture du port de l'host (gauche) vers le container (droite)
+    ports:
+      - 5173:5173
+    # Commande à exécuter lorsque le container est créé
+    command: npm run setup

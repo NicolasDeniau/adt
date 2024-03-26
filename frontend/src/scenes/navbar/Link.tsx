@@ -13,7 +13,7 @@ const Link = ({
     <AnchorLink
         className=""
         href={`#${lowerCasePage}`}
-        onClick={}
+        // onClick={}
     >
         {page}
     </AnchorLink>

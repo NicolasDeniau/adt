@@ -26,7 +26,11 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
                 <div className={`${flexBetwenn} mx-auto w-5/6`}>
                     <div className={`${flexBetwenn} w-full gap-16`}>
                         {/* côté gauche */}
+                        
                         <img alt="logo" src={Logo} className='w-20' />
+                        
+                        
+
                         {/* côté droit */}
                         {isAboveMediumScreens ? (
                             <div className={`${flexBetwenn} w-full`}>
@@ -53,13 +57,18 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
                                     />
                                 </div>
                                 <div className={`${flexBetwenn} gap-8`}>
-                                    <p>Sign In</p>
-                                    <ActionButton setSelectedPage={setSelectedPage}>
-                                        Become a Member
-                                    </ActionButton>
+                                <a
+                                    href="https://hotelarcdetriomphe.fr/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="rounded-md bg-secondary-500 px-10 py-2 hover:bg-primary-500 hover:text-white"
+                                >
+                                    Réserver
+                                </a>
                                 </div>
                             </div>
                         ) : (
+                            
                             <button
                                 className="rounded-full bg-secondary-500 p-2"
                                 onClick={() => setIsMenuToggled(!isMenuToggled)}

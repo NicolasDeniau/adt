@@ -10,28 +10,28 @@ import Class from "./Class";
 
 const classes: Array<ClassType> = [
     {
-        name: "Weight Training Classes",
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio dolor qui assumenda nisi fugit facilis laudantium minima sapiente nobis dolorem recusandae itaque ipsum, esse ex quod laboriosam quo, suscipit quos eos animi? Illo atque fugit dolor veniam ullam aliquid provident!",
+        name: "Chambre Simple",
+        description: "Idéal pour un court séjour dans la capitale.",
         image: image1,
     },
     {
-        name: "Fitness Training Classes",
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio dolor qui assumenda nisi fugit facilis laudantium minima sapiente nobis dolorem recusandae itaque ipsum, esse ex quod laboriosam quo, suscipit quos eos animi? Illo atque fugit dolor veniam ullam aliquid provident!",
+        name: "Chambre Double Classique",
+        description: "Idéal pour un court séjour dans la capitale.",
         image: image2,
     },
     {
-        name: "Adventure Training Classes",
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio dolor qui assumenda nisi fugit facilis laudantium minima sapiente nobis dolorem recusandae itaque ipsum, esse ex quod laboriosam quo, suscipit quos eos animi? Illo atque fugit dolor veniam ullam aliquid provident!",
+        name: "Chambre Double Sup",
+        description: "Idéal pour un court séjour dans la capitale.",
         image: image3,
     },
     {
-        name: "Ab Core Training Classes",
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio dolor qui assumenda nisi fugit facilis laudantium minima sapiente nobis dolorem recusandae itaque ipsum, esse ex quod laboriosam quo, suscipit quos eos animi? Illo atque fugit dolor veniam ullam aliquid provident!",
+        name: "Chambre Triple",
+        description: "Idéal pour un court séjour dans la capitale.",
         image: image4,
     },
     {
-        name: "Yoda Training Classes",
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio dolor qui assumenda nisi fugit facilis laudantium minima sapiente nobis dolorem recusandae itaque ipsum, esse ex quod laboriosam quo, suscipit quos eos animi? Illo atque fugit dolor veniam ullam aliquid provident!",
+        name: "Chambre Familiale",
+        description: "Idéal pour un court séjour dans la capitale.",
         image: image6,
     }
 ]

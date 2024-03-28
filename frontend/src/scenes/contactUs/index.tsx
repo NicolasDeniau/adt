@@ -45,12 +45,10 @@ const ContactUs = ({ setSelectedPage }: Props) => {
                 }}
             >
                 <HText>
-                    <span className='text-primary-500'>JOIN NOW</span>
+                    <span className='text-primary-500'>UNE QUESTION ? CONTACTEZ-NOUS </span>
                 </HText>
                 <p className='my-5'>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae odio, voluptate consequuntur fugit omnis ea tempora 
-                    aperiam dignissimos veritatis, 
-                    animi sit molestias quam voluptates accusamus perferendis officia iste quas delectus?
+                    Posez votre question ci-dessous et nous reviendrons vers vous dans les plus bref délais.
                 </p>
 
             </motion.div>
@@ -80,7 +78,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
                             <input 
                             className={inputStyles}
                             type="text"
-                            placeholder="NAME"
+                            placeholder="NOM"
                                 {...register("name", {
                                     required: true,
                                     maxLength: 100,

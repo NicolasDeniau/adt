@@ -66,12 +66,10 @@ const Benefits = ({setSelectedPage}: Props) => {
                 }}
             >
                 <HText>
-                    MORE THAN JUST A GYM
+                    PLUS QU'UN SIMPLE HOTEL
                 </HText>
                 <p className="my-5 text-sm">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis hic voluptate possimus temporibus 
-                    ipsum quibusdam quaerat nisi fugiat iste ad eaque illo illum, nobis, ipsa cumque cum corrupti quos, in placeat. 
-                    Porro explicabo totam sint harum temporibus, 
+                Rénové en 2023, l'Hôtel Arc de Triomphe incarne l'essence même des séjours parisiens, offrant une expérience d'une sérénité audacieuse. Niché dans le 17ème arrondissement, à quelques pas seulement de l'illustre Arc de Triomphe, notre établissement se distingue par son ambiance feutrée et raffinée, établissant ainsi un contraste harmonieux avec le dynamisme environnant de ce quartier prestigieux.
                 </p>
             </motion.div>
 

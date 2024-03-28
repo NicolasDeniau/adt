@@ -1,7 +1,7 @@
 import useMediaQuery from "@/hooks/useMediaQuery";
 import { SelectedPage } from "@/shared/types";
 import ActionButton from "../navbar/ActionButton";
-import HomePageText from "@/assets/HomePageText.png"
+import Logo from "@/assets/Logo.png"
 import HomePageGraphic from "@/assets/HomePageGraphic.png"
 import SponsorAAH from "@/assets/SponsorAAH.png"
 import SponsorFigestel from "@/assets/SponsorFigestel.png"
@@ -43,7 +43,7 @@ const Home = ({ setSelectedPage }: Props) => {
                     >
                         <div className="relative">
                             <div className="before:absolute before:-top-20 before:-left-20 before:z-[-1] md:before:content-evolvetext">
-                                <img alt="home-page-text" src={HomePageText} />
+                                <img alt="home-page-text" src={Logo} />
                             </div>
                         </div>
 
